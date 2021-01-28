@@ -94,3 +94,198 @@ the user.
 ![](Output_images/dbms(1).png)
 ![](Output_images/dbms(2).png)
 ![](Output_images/dbms(3).png)
+
+### 4.Design of the Project
+
+- 4.1 ER Diagram
+
+![](Output_images/dbms(4).png)
+
+- 4.2 ER to Relational Mapping (Schema Diagram)
+
+![](Output_images/dbms(5).png)
+
+- 4.3 Tables and Constraints
+
+![](Output_images/dbms(6).png)
+
+
+### 5.Normalized Tables
+
+a)Admin
+
+![](Output_images/dbms(7).png)
+
+
+b)Trip
+
+![](Output_images/dbms(8).png)
+
+
+Functional Dependencies:
+
+i)Total_Price -> StartDate, EndDate: The total cost of the trip is directly dependant on
+the starting date and ending date of the trip
+
+ii) GuideName, GuideContact -> TripId, Itinerary: Since the overall packages of the trips
+will be set by the admin, hence the guides will also be the chosen by the admins and
+also the kind of guide depends upon the itinerary chosen by the user hence these two
+attributes are directly dependent on the TripID and Itinerary.
+
+After Normalization:
+
+![](Output_images/dbms(9).png)
+
+c)Hotels
+
+![](Output_images/dbms(10).png)
+
+d)Cities
+
+![](Output_images/dbms(11).png)
+
+e)Distance
+
+![](Output_images/dbms(12).png)
+
+f)Trip_Group
+
+![](Output_images/dbms(13).png)
+
+g)Recommendation
+
+![](Output_images/dbms(14).png)
+
+Functional Dependencies:
+
+i)Location -> Category: Locations are directly dependent on the category of the
+location like a beach location, a historical location, a hill station etc.
+
+After Normalization:
+
+![](Output_images/dbms(15).png)
+
+h)Age_Group
+
+![](Output_images/dbms(16).png)
+
+i)Recom_Locs
+
+![](Output_images/dbms(17).png)
+
+j)User
+
+![](Output_images/dbms(18).png)
+
+Functional Dependencies:
+
+i)Review -> Rate: The review given by the user is directly dependent on the rating
+given by the user, as if the user gives a good rating to the trip/plan/location, the
+review for the same is also going to be good
+
+ii)Mobile -> City: City Codes are common to phone numbers issued in the same city, be
+it landlines or mobile numbers, hence mobile number is directly dependent on the city
+of the User.
+
+After Normalization:
+
+![](Output_images/dbms(19).png)
+
+k)Get_Recommendation
+
+![](Output_images/dbms(20).png)
+
+l)Join_Trip
+
+![](Output_images/dbms(21).png)
+
+m)Trip_Location
+
+![](Output_images/dbms(22).png)
+
+n)User_Pref
+
+![](Output_images/dbms(23).png)
+
+### 6.Output Screenshots
+
+![](Output_images/dbms(24).png)
+
+![](Output_images/dbms(25).png)
+
+![](Output_images/dbms(26).png)
+
+![](Output_images/dbms(27).png)
+
+![](Output_images/dbms(28).png)
+
+![](Output_images/dbms(29).png)
+
+![](Output_images/dbms(30).png)
+
+![](Output_images/dbms(31).png)
+
+### 7.Conclusion
+
+- 7.1 Conclusion
+
+We were able to implement a fully functional web application for tours and travel planning
+during the course of this project. Due to this project, we were also able to explore the
+practical purposes of a database management system and put our Web Development skills to
+the test using HTML-CSS, JavaScript, and PHP. The project overall was a great learning
+experience for the entire team and has helped us understand the various components of a
+DBMS to a much greater depth.
+
+- 7.2 Future Work
+
+Future improvements involve using an actual payment API instead of a dummy test
+API to give it a better feel, and add more travel destinations. Adding more
+functionality on booking page like custom facilities like choosing travel mode.
+Adding booking services of buses and cabs and hot air balloons. Adding Visa
+extension services. Adding more cities and hotels to choose from.
+
+### 8.References
+
+[1] Kirti Singh Dahiya, Dr. K. K. Batra “Travel industry selecting between online and
+offline Mode”, International Journal of Scientific and Research Publications, Volume 6, Issue
+9, September 2016, 694 ISSN2250-3153
+
+[2] Faudziah Ahmad, Fauziah Baharom and Moath Husni “Current Web Application
+Development and Measurement Practices for Small Software Firms (May 2012): Acceptance
+Degree Identification”
+
+[3] Narayan B. Prabhu M, “An exploratory study on online travel trends and travel behaviour
+of employees working in I.T. organizations in Bengaluru, India”, Global Review of Research
+in Tourism, Hospitality and Leisure Management (GRRTHLM) An Online International
+Research Journal (ISSN: 2311-3189) 2014 Vol: 1 Issue 3
+
+[4] Soloman Anthony, “A review and analysis of technologies for developing web
+application.(March 2012):ASP.NET”,A_review_and_analysis_of_technologies_for_developi
+ng_web_Applications
+
+[5] Anton Bogdanovych, Helmut Berger, Simeon Simoff and Carles Sierra, “Travel Agents
+vs. Online Booking: Tackling the Shortcomings of Nowadays Online Tourism Portals”,
+Conference: Information and Communication Technologies in Tourism, ENTER 2006,
+
+[6] Punam Kumari and Rainu Nandal, “A Research Paper On Website Development
+Optimization Using Xampp/PHP(May-June 2017)”, 3792-8121-1-PB.pdf
+
+[7] Faudziah Ahmad, Fauziah Baharom and Moath Husni, “Current Web Application
+Development and Measurement Practices for Small Software Firms (May 2012): Variable
+Clustering”
+
+[8] Faudziah Ahmad, Fauziah Baharom and Moath Husni, “Current Web Application
+Development and Measurement Practices for Small Software Firms (May 2012): Variable
+Clustering: Data Coding”
+
+[9] Soloman Anthony, “A review and analysis of technologies for developing web
+application.(March 2012):LAMP”,A_review_and_analysis_of_technologies_for_developing_
+web_Applications
+
+[10] Soloman Anthony, “A review and analysis of technologies for developing web
+application.(March 2012):J2EE”,A_review_and_analysis_of_technologies_for_developing_
+web_Applications
+
+### Our Team
+
+Keerthana Balamurugan, Harshit Vijay, Anant Tiwari and Ayush Sharma
