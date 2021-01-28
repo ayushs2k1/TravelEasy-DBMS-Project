@@ -289,3 +289,5 @@ web_Applications
 ### Our Team
 
 Keerthana Balamurugan, Harshit Vijay, Anant Tiwari and Ayush Sharma
+
+### Thanks for reading
