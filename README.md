@@ -90,5 +90,7 @@ the user.
       - Processor(Dual Core or Above)
  
  ### 3.Literature Survey
- 
- 
+
+![](Output_images/dbms(1).png)
+![](Output_images/dbms(2).png)
+![](Output_images/dbms(3).png)
